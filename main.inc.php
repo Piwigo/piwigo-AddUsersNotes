@@ -10,6 +10,17 @@ Author URI:
 
 if (!defined('PHPWG_ROOT_PATH')) die('Hacking attempt!');
 
+if (basename(dirname(__FILE__)) != 'AddUsersNotes')
+{
+  add_event_handler('init', 'usernotes_error');
+  function usernotes_error()
+  {
+    global $page;
+    $page['errors'][] = 'AddUsersNotes folder name is incorrect, uninstall the plugin and rename it to "AddUsersNotes"';
+  }
+  return;
+}
+
 global $prefixeTable;
 
 // +-----------------------------------------------------------------------+
