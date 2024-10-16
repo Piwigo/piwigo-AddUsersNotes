@@ -1,0 +1,1 @@
+Adiciona notas do administrador aos perfis de utilizadores

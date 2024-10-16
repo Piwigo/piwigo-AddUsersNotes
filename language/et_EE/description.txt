@@ -1,0 +1,1 @@
+Võimaldab adminidel lisada märkmeid kasutajate profiilidele

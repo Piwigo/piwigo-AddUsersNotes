@@ -1,0 +1,1 @@
+Legg til meldingar frå administrator i brukarprofilar.

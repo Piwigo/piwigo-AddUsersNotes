@@ -1,0 +1,1 @@
+Donne la posibilité au administrateur d'ajouter une remarque sur les utilisateurs

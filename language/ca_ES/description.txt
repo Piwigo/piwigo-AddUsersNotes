@@ -1,0 +1,1 @@
+Permet afegir notes del administrador als perfils dels usuaris
